@@ -28,7 +28,7 @@ const Box=()=>{
     
    
     </div>
-    {!timeup?<ButtonBox/>:<div className="flex flex-col justify-center items-center font-bold"><h1 >TIMEUP</h1>
+    {!timeup?<ButtonBox/>:<div className="flex flex-col justify-center items-center font-bold"><h1 >TIMEsUP</h1>
     <h2 className="font-bold">Your Score is {score}</h2>
     <button onClick={()=>window.location.reload()} className="bg-black p-2 px-4 rounded-xl m-2 text-white">PLAY AGAIN</button>
     </div>}
