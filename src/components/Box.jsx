@@ -18,7 +18,7 @@ const Box=()=>{
 
   
     return <div className="w-[30%] h-[95vh] max-sm:h-[80vh] rounded-lg bg-slate-200 max-sm:w-[90%]">
-    <div className="w-[100%] h-[10%] bg-yellow-400 flex items-center justify-between px-3 border-white border-2">
+    <div className="w-[100%] h-[10%] bg-yellow-400 flex items-center justify-between px-3 border-black border-2">
     <button onClick={()=>window.location.reload()} className="bg-black text-white rounded-lg font-bold px-2">Reset</button>
     <h1 className="font-semibold bg-yellow-700 text-white px-2 rounded-lg">Hit {randomNumber}</h1>
     <Timer/>
