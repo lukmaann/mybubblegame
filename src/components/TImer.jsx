@@ -13,7 +13,7 @@ const Timer=()=>{
     },[])
 
     useEffect(()=>{
-        if(countdown<=0){
+        if(countdown<=1){
             clearInterval(tick.current)
             setTime()
 
